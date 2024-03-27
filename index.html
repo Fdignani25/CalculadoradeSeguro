@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Seguros</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <form id="seguroForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required><br>
+        
+        <label for="tipoSeguro">Tipo de Seguro:</label>
+        <select id="tipoSeguro">
+            <option value="vida">Vida</option>
+            <option value="auto">Auto</option>
+        </select><br>
+        
+        <div id="entradaMarcaAuto" style="display:none;">
+            <label for="marcaAuto">Marca del Auto:</label>
+            <input type="text" id="marcaAuto"><br>
+        </div>
+        
+        <button type="button" id="botonCalcular">Calcular</button>
+    </form>
+    
+    <div id="resultado" style="display:none;"></div>
+    <script src="./js/js.js"></script>
+</body>
+</html>
