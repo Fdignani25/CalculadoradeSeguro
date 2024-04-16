@@ -1,0 +1,20 @@
+{
+    "clientes": [
+      {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "edad": 35,
+        "tipoSeguro": "auto",
+        "marcaAuto": "Renault",
+        "modeloAuto": "Clio",
+        "tieneGNC": true
+      },
+      {
+        "nombre": "María",
+        "apellido": "Gómez",
+        "edad": 45,
+        "tipoSeguro": "vida"
+      }
+    ]
+  }
+  
